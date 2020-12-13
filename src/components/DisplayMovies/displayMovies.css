@@ -1,0 +1,19 @@
+.movies-container {
+  margin-top: 15px;
+
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.movie {
+  cursor: pointer;
+  transition: ease 0.2s;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px -1px rgb(0 0 0 / 60%);
+}
+
+.movie:hover {
+  transform: scale(1.05);
+}

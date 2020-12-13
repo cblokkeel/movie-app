@@ -1,0 +1,37 @@
+.arrows-container {
+  margin-top: auto;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px 0;
+}
+
+.nav-button {
+  border: none;
+  outline: none;
+  padding: 15px 40px;
+  cursor: pointer;
+  transition: ease 0.2s;
+  color: white;
+  font-family: 'Montserrat';
+}
+
+.nav-button:hover {
+  transform: scale(1.05);
+}
+
+.non-available {
+  background: #34495e;
+}
+
+.available {
+  background: #2ecc71;
+}
+
+@media screen and (max-width: 600px) {
+  .arrows-container {
+    gap: 15px;
+  }
+}
